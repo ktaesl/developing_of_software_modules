@@ -1,7 +1,7 @@
 # Учёт расходов в поездке. Один файл: и данные, и расчёты, и вывод на экран.
 # Это стартовая точка домашней работы: вынести расчёты в отдельный модуль.
 from rich import print
-from calculator import calculate_total, calculate_average
+from lesson_02.trip.calculator import calculate_total, calculate_average
 
 EXPENSES = [
     {"day": 1, "category": "еда", "amount": 540},
